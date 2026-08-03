@@ -61,7 +61,7 @@ const createStudent = async (req, res) => {
     }
 };
 
-// Update student
+//Update student
 const updateStudent = async (req, res) => {
     try {
         const { id } = req.params;
